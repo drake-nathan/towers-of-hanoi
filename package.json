@@ -4,7 +4,7 @@
   "description": "Towers of Hanoi game, built as an eval for Parsity Unit 1.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/drake-nathan/towers-of-hanoi/issues"
   },
-  "homepage": "https://github.com/drake-nathan/towers-of-hanoi#readme"
+  "homepage": "https://github.com/drake-nathan/towers-of-hanoi#readme",
+  "devDependencies": {
+    "jasmine": "^4.0.2"
+  }
 }
